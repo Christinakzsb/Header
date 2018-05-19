@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+/*Méretezés, Háttérszínek*/
+.kezdolap{
+ height: 100vh;
+ width: 100vw;
+ display: table;
+ background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+ background-size: 120% 150%;
+ background-size: cover;
+}
+.navbar{
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  position: fixed;
+  border-bottom: 5px solid rgba(65, 65, 65, 1);
+}
+.header{
+  height: 90%;
+  width: 100%;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+
+/*Navbar
+.navbar{
+  text-align: center;
+  }
+.title{
+  text-decoration: none;
+  color: white;
+  font-size: 1.125rem;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.nav{
+  text-decoration: none;
+  color: white;
+  font-size: 1.125rem;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 10px 3px;
+   text-align: center;
+}
+
+.nav-apen{
+  	line-height: 1.5rem;
+	letter-spacing: .1rem;
+	margin-bottom: .5rem;
+ float: left;
+}
+.nav-componentsproject{
+  float: left;
+}
+.nav-fork{
+  float: right;
+  border: 2px solid rgba(55, 55, 55, 1);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.nav-changeview{
+  float: right;
+    border: 2px solid rgba(55, 55, 55, 1);
+  border-radius: 5px;
+    background-color: rgba(55, 55, 55, 1);
+ padding: 5px 10px;
+}
+.nav-login{
+  float: right;
+    border: 2px solid rgba(55, 55, 55, 1);
+  border-radius: 5px;
+    background-color: rgba(55, 55, 55, 1);
+ padding: 5px 10px;
+}
+.nav-signup{
+  float: right;
+    border: 2px solid rgba(55, 55, 55, 1);
+  border-radius: 5px;
+    background-color: rgba(55, 55, 55, 1);
+ padding: 5px 10px;
+}
+.nav-fork:hover {
+  background-color: rgba(75, 75, 75, 1);
+    transition: background-color .3s ease-in-out;
+}
+.nav-changeview:hover {
+  background-color: rgba(75, 75, 75, 1);
+    transition: background-color .3s ease-in-out;
+}
+.nav-login:hover {
+  background-color: rgba(75, 75, 75, 1);
+    transition: background-color .3s ease-in-out;
+}
+.nav-signup:hover {
+  background-color: rgba(75, 75, 75, 1);
+    transition: background-color .3s ease-in-out;
+}
+*/
+
+
+/*Header*/
+.header{
+  color: rgba(195, 195, 195, 1);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  padding: 15%;
+}
+.headline{
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.header h3{
+   font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+@media screen and (min-width: 1224px) {
+
+  .headline {
+    font-size: 6rem;
+  }
+
+}
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/*Content*/
+.content{
+  padding: 0 .625rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7rem;
+}
+@media (min-width: 1224px) {
+
+  .content {
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+
+}
+
+.content h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 2rem 0;
+}
+.content p{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
